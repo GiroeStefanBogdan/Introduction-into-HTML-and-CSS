@@ -1,0 +1,16 @@
+ol{
+    list-style-type: upper-roman;
+}
+li>ol{
+list-style-type: lower-alpha;
+}
+
+li>ol>li>ol{
+list-style-type: circle;
+}
+li>ul{
+    list-style-type: disc;
+}
+.numerals{
+    list-style-type: decimal;
+}
